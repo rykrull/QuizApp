@@ -16,9 +16,32 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".Question1"
+            android:label="Question1">
+            <intent-filter>
+                <action android:name="com.example.rkrul.quizapp.Question1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Question2"
-            android:label="@string/title_activity_question2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="Question2">
+            <intent-filter>
+                <action android:name="com.example.rkrul.quizapp.Question2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Results"
+            android:label="Results">
+            <intent-filter>
+                <action android:name="com.example.rkrul.quizapp.Results" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

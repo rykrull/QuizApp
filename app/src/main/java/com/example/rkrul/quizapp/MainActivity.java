@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startPressed(View view){
-        Intent playIntent = new Intent("com.cs407_android.");
+        Intent playIntent = new Intent("com.example.rkrul.quizapp.Question1");
         startActivity(playIntent);
     }
 }
