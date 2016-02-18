@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Click all elements that are liquids in room temperature"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radon"
+        android:id="@+id/checkBox"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_weight=".15"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mercury"
+        android:id="@+id/checkBox2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight=".15"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Helium"
+        android:id="@+id/checkBox3"
+        android:layout_weight=".15"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lead"
+        android:id="@+id/checkBox4"
+        android:layout_weight=".15"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bromide"
+        android:id="@+id/checkBox5"
+        android:layout_weight=".15"
+        android:checked="false" />
+</LinearLayout>
