@@ -1,7 +1,9 @@
 package com.example.rkrul.quizapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 /**
@@ -29,6 +31,16 @@ public class Results extends AppCompatActivity {
         } else{
             question2.setText("Incorrect");
         }
+    }
+
+    public void quitPressed(View view){
+        Intent start = new Intent(this,MainActivity.class);
+        startActivity(start);
+    }
+
+    public void restartPressed(View view){
+        Intent start = new Intent("com.example.rkrul.quizapp.Question1");
+        startActivity(start);
     }
 
 }

@@ -28,7 +28,8 @@
         android:id="@+id/button2"
         android:layout_gravity="center_horizontal"
         android:layout_above="@+id/button3"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="restartPressed" />
 
     <Button
         android:layout_width="wrap_content"
@@ -37,7 +38,8 @@
         android:id="@+id/button3"
         android:layout_gravity="center_horizontal"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="quitPressed" />
 
     <LinearLayout
         android:orientation="horizontal"

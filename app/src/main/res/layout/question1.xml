@@ -38,11 +38,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/editText"
         android:layout_gravity="center_horizontal"
-        android:text="Enter your answer here"
         android:layout_marginBottom="28dp"
         android:layout_above="@+id/button4"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:hint="Enter your answer here" />
 
     <Button
         android:layout_width="wrap_content"
