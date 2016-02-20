@@ -1,14 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.rkrul.quizapp.Question1">
-
+    tools:context="com.example.rkrul.quizapp.PicQuestion">
     <ImageView
         android:layout_width="516dp"
         android:layout_height="wrap_content"
@@ -28,21 +22,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="What animal is this?"
         android:id="@+id/textView2"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="center"
         android:layout_above="@+id/editText"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="25dp" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="28dp"
-        android:layout_above="@+id/button4"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:hint="Enter your answer here" />
 
     <Button
         android:layout_width="wrap_content"
@@ -52,5 +35,22 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="58dp"
-        android:onClick="submit1Pressed" />
-</RelativeLayout>
+        android:onClick="submit1Pressed"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="center"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Enter your answer here"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>

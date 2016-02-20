@@ -39,7 +39,7 @@ public class Results extends AppCompatActivity {
     }
 
     public void restartPressed(View view){
-        Intent start = new Intent("com.example.rkrul.quizapp.Question1");
+        Intent start = new Intent(this,playActivity.class);
         startActivity(start);
     }
 
